@@ -60,7 +60,11 @@
     "@angular/language-service": "14.2.12",
     "@compodoc/compodoc": "^1.1.19",
     "@fortawesome/fontawesome-free": "^5.2.0",
+<<<<<<< HEAD
     "@playwright/test": "^1.45.3",
+=======
+    "@playwright/test": "^1.45.1",
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
     "@types/leaflet": "1.2.3",
     "@types/node": "^12.12.70",
     "allure-playwright": "^3.0.0-beta.7",

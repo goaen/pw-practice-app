@@ -1,29 +1,44 @@
 import {test, expect} from '@playwright/test';
 
+<<<<<<< HEAD
 // test.describe.configure({ mode: parallel })
 
+=======
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
 test.beforeEach(async ({page}) => {
     await page.goto('http://localhost:4200')
 })
 
+<<<<<<< HEAD
 test.describe('Form Layouts page @blocktag', () => {
     test.describe.configure({ retries: 0 })
     // test.describe.configure({ mode: 'serial' })
 
+=======
+test.describe('Form Layouts page', () => {
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
     test.beforeEach(async ({page}) => {
         await page.getByText('Forms').click()
         await page.getByText('Form Layouts').click()
     })
 
+<<<<<<< HEAD
     test('input fields', async ({page}, testInfo) => {
         if (testInfo.retry) {
             console.log('Retrying test')
         }
+=======
+    test('input fields', async ({page}) => {
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
         const usingTheGridEmailInput = page.locator('nb-card', {hasText: "Using the Grid"}).getByRole('textbox', {name: 'Email'})
 
         await usingTheGridEmailInput.fill('test@test.com')
         await usingTheGridEmailInput.clear()
+<<<<<<< HEAD
         await usingTheGridEmailInput.pressSequentially('test2@test.com')
+=======
+        await usingTheGridEmailInput.pressSequentially('test2@test.com', {delay:500})
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
 
         // generic assertion
         const inputValue = await usingTheGridEmailInput.inputValue()
@@ -33,6 +48,7 @@ test.describe('Form Layouts page @blocktag', () => {
         await expect(usingTheGridEmailInput).toHaveValue('test2@test.com')
     })
 
+<<<<<<< HEAD
     test.only('radio buttons', async ({page}) => {
         const usingTheGridForm = page.locator('nb-card', {hasText: "Using the Grid"})
         
@@ -47,6 +63,20 @@ test.describe('Form Layouts page @blocktag', () => {
         // await usingTheGridForm.getByRole('radio', { name: "Option 2"}).check({force : true})    // force is needed because element marked as unavailable
         // expect(await usingTheGridForm.getByRole('radio', { name: "Option 1"}).isChecked()).toBeFalsy()
         // expect(await usingTheGridForm.getByRole('radio', { name: "Option 2"}).isChecked()).toBeTruthy()
+=======
+    test('radio buttons', async ({page}) => {
+        const usingTheGridForm = page.locator('nb-card', {hasText: "Using the Grid"})
+        
+        // await usingTheGridForm.getByLabel('Option 1').check({force : true})
+        await usingTheGridForm.getByRole('radio', { name: "Option 1"}).check({force : true})
+        const radioStatus = await usingTheGridForm.getByRole('radio', { name: "Option 1"}).isChecked()
+        expect(radioStatus).toBeTruthy()
+        await expect(usingTheGridForm.getByRole('radio', { name: "Option 1"})).toBeChecked()
+
+        await usingTheGridForm.getByRole('radio', { name: "Option 2"}).check({force : true})    // force is needed because element marked as unavailable
+        expect(await usingTheGridForm.getByRole('radio', { name: "Option 1"}).isChecked()).toBeFalsy()
+        expect(await usingTheGridForm.getByRole('radio', { name: "Option 2"}).isChecked()).toBeTruthy()
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
     })
 
 })

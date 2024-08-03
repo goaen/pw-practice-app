@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { expect } from '@playwright/test'
 import { test } from '../test-options'
 
@@ -5,6 +6,12 @@ test('drag and drop with iframes', async ({ page, globalsQaURL }) => {
 //test('drag and drop with iframes', async ({ page }) => {
         //await page.goto('https://www.globalsqa.com/demo-site/draganddrop/')
     await page.goto(globalsQaURL)
+=======
+import {test, expect} from '@playwright/test'
+
+test('drag and drop with iframes', async ({page}) => {
+    await page.goto('https://www.globalsqa.com/demo-site/draganddrop/')
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
 
     await page.getByLabel('Consent', { exact: true }).click()
 

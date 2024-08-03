@@ -1,14 +1,20 @@
 import {test, expect} from '@playwright/test';
+<<<<<<< HEAD
 // import { NavigationPage } from '../page-objects/navigationPage';
 // import { FormLayoutsPage } from '../page-objects/formLayoutsPage';
 // import { DatePickerPage } from '../page-objects/datePickerPage';
 import { PageManager } from '../page-objects/pageManager';
 import { faker } from '@faker-js/faker';
+=======
+import { NavigationPage } from '../page-objects/navigationPage';
+import { FormLayoutsPage } from '../page-objects/formLayoutsPage';
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
 
 test.beforeEach(async ({page}) => {
     await page.goto('http://localhost:4200')
 })
 
+<<<<<<< HEAD
 test('navigate to form page', {tag: ['@smoke', '@regression']}, async({page}) => {
     const pm = new PageManager(page)
     // const navigateTo = new NavigationPage(page)
@@ -42,3 +48,23 @@ test('parameterized methods @smoke', async({page}) => {
     // await pm.onDatePickerPage().selectDatePickerWithRangeFromToday(10, 15)
 })
 
+=======
+test('navigate to form page', async({page}) => {
+    const navigateTo = new NavigationPage(page)
+    await navigateTo.formLayoutsPage()
+    await navigateTo.datepickerPage()
+    await navigateTo.smartTablePage()
+    await navigateTo.toastrPage()
+    await navigateTo.tooltipPage()
+})
+
+test('parameterized methods', async({page}) => {
+    const navigateTo = new NavigationPage(page)
+    const onFormLayoutsPage = new FormLayoutsPage(page)
+
+    await navigateTo.formLayoutsPage()
+    await onFormLayoutsPage.submitUsingTheGridFormWithCredentialsAndSelectOption('a@b.c', '123456', 'Option 2')
+    await onFormLayoutsPage.submitInlineFormWithNameEmailAndCheckbox('Fjatle Kneggstad', 'x@y.z', true)
+
+})
+>>>>>>> 3d34f4ce3ed9a6f4ecca6fc255df12243c2b5fa2
