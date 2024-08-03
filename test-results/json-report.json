@@ -1,0 +1,270 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\playwright.config.ts",
+    "rootDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit-report.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/json-report.json"
+        }
+      ],
+      [
+        "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "html",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "dev",
+        "name": "dev",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "staging",
+        "name": "staging",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "mobileIphone",
+        "name": "mobileIphone",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "testMobile.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "testMobile.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "viewport-test",
+        "name": "viewport-test",
+        "testDir": "C:/Users/geiro/gitwork/kurs/udemy/playwright/pw-practice-app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "testMobile.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.45.3",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "uiComponents.spec.ts",
+      "file": "uiComponents.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Form Layouts page @blocktag",
+          "file": "uiComponents.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "radio buttons",
+              "ok": false,
+              "tags": [
+                "blocktag"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 2705,
+                      "error": {
+                        "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts-snapshots\\Form-Layouts-page-blocktag-radio-buttons-1-chromium-win32.png\u001b[39m\nReceived: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-actual.png\u001b[39m\n    Diff: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - waiting for locator('nb-card').filter({ hasText: 'Using the Grid' })\u001b[22m\n\u001b[2m  -   locator resolved to <nb-card _nghost-qmw-c95=\"\" _ngcontent-qmw-c287=\"\">…</nb-card>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m  -   waiting for element to be stable\u001b[22m\n\u001b[2m  - Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - waiting for locator('nb-card').filter({ hasText: 'Using the Grid' })\u001b[22m\n\u001b[2m  -   locator resolved to <nb-card _nghost-qmw-c95=\"\" _ngcontent-qmw-c287=\"\">…</nb-card>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m  -   waiting for element to be stable\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n",
+                        "stack": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts-snapshots\\Form-Layouts-page-blocktag-radio-buttons-1-chromium-win32.png\u001b[39m\nReceived: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-actual.png\u001b[39m\n    Diff: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - waiting for locator('nb-card').filter({ hasText: 'Using the Grid' })\u001b[22m\n\u001b[2m  -   locator resolved to <nb-card _nghost-qmw-c95=\"\" _ngcontent-qmw-c287=\"\">…</nb-card>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m  -   waiting for element to be stable\u001b[22m\n\u001b[2m  - Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - waiting for locator('nb-card').filter({ hasText: 'Using the Grid' })\u001b[22m\n\u001b[2m  -   locator resolved to <nb-card _nghost-qmw-c95=\"\" _ngcontent-qmw-c287=\"\">…</nb-card>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m  -   waiting for element to be stable\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n    at C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts:42:40",
+                        "location": {
+                          "file": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts",
+                          "column": 40,
+                          "line": 42
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 40 |\u001b[39m         \u001b[36mawait\u001b[39m usingTheGridForm\u001b[33m.\u001b[39mgetByRole(\u001b[32m'radio'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"Option 2\"\u001b[39m})\u001b[33m.\u001b[39mcheck({force \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m})\n \u001b[90m 41 |\u001b[39m         \u001b[36mconst\u001b[39m radioStatus \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m usingTheGridForm\u001b[33m.\u001b[39mgetByRole(\u001b[32m'radio'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"Option 1\"\u001b[39m})\u001b[33m.\u001b[39misChecked()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m         \u001b[36mawait\u001b[39m expect(usingTheGridForm)\u001b[33m.\u001b[39mtoHaveScreenshot()\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m         \u001b[90m// expect(radioStatus).toBeTruthy()\u001b[39m\n \u001b[90m 45 |\u001b[39m         \u001b[90m// await expect(usingTheGridForm.getByRole('radio', { name: \"Option 1\"})).toBeChecked()\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts",
+                            "column": 40,
+                            "line": 42
+                          },
+                          "message": "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts-snapshots\\Form-Layouts-page-blocktag-radio-buttons-1-chromium-win32.png\u001b[39m\nReceived: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-actual.png\u001b[39m\n    Diff: \u001b[33mC:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-diff.png\u001b[39m\n\nCall log:\n  \u001b[2m- expect.toHaveScreenshot with timeout 5000ms\u001b[22m\n\u001b[2m  -   verifying given screenshot expectation\u001b[22m\n\u001b[2m  - waiting for locator('nb-card').filter({ hasText: 'Using the Grid' })\u001b[22m\n\u001b[2m  -   locator resolved to <nb-card _nghost-qmw-c95=\"\" _ngcontent-qmw-c287=\"\">…</nb-card>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m  -   waiting for element to be stable\u001b[22m\n\u001b[2m  - Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\u001b[2m  - waiting 100ms before taking screenshot\u001b[22m\n\u001b[2m  - waiting for locator('nb-card').filter({ hasText: 'Using the Grid' })\u001b[22m\n\u001b[2m  -   locator resolved to <nb-card _nghost-qmw-c95=\"\" _ngcontent-qmw-c287=\"\">…</nb-card>\u001b[22m\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  -   disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m  -   waiting for element to be stable\u001b[22m\n\u001b[2m  - captured a stable screenshot\u001b[22m\n\u001b[2m  - Expected an image 459px by 383px, received 461px by 383px. 490 pixels (ratio 0.01 of all image pixels) are different.\u001b[22m\n\n\n\u001b[0m \u001b[90m 40 |\u001b[39m         \u001b[36mawait\u001b[39m usingTheGridForm\u001b[33m.\u001b[39mgetByRole(\u001b[32m'radio'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"Option 2\"\u001b[39m})\u001b[33m.\u001b[39mcheck({force \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m})\n \u001b[90m 41 |\u001b[39m         \u001b[36mconst\u001b[39m radioStatus \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m usingTheGridForm\u001b[33m.\u001b[39mgetByRole(\u001b[32m'radio'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m\"Option 1\"\u001b[39m})\u001b[33m.\u001b[39misChecked()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m         \u001b[36mawait\u001b[39m expect(usingTheGridForm)\u001b[33m.\u001b[39mtoHaveScreenshot()\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 43 |\u001b[39m\n \u001b[90m 44 |\u001b[39m         \u001b[90m// expect(radioStatus).toBeTruthy()\u001b[39m\n \u001b[90m 45 |\u001b[39m         \u001b[90m// await expect(usingTheGridForm.getByRole('radio', { name: \"Option 1\"})).toBeChecked()\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts:42:40\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-03T08:56:23.599Z",
+                      "attachments": [
+                        {
+                          "name": "Form-Layouts-page-blocktag-radio-buttons-1-expected.png",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts-snapshots\\Form-Layouts-page-blocktag-radio-buttons-1-chromium-win32.png"
+                        },
+                        {
+                          "name": "Form-Layouts-page-blocktag-radio-buttons-1-actual.png",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-actual.png"
+                        },
+                        {
+                          "name": "Form-Layouts-page-blocktag-radio-buttons-1-diff.png",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\test-results\\uiComponents-Form-Layouts-page-blocktag-radio-buttons-chromium\\Form-Layouts-page-blocktag-radio-buttons-1-diff.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\geiro\\gitwork\\kurs\\udemy\\playwright\\pw-practice-app\\tests\\uiComponents.spec.ts",
+                        "column": 40,
+                        "line": 42
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "61472adf5185ec2f0dc4-e146bfb7aca6e05ffadd",
+              "file": "uiComponents.spec.ts",
+              "line": 36,
+              "column": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-08-03T08:56:20.647Z",
+    "duration": 5957.485,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
